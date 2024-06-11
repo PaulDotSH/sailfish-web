@@ -1,0 +1,25 @@
+[package]
+name = "sailfish-web"
+version = "0.1.0"
+edition = "2021"
+authors = ["Abrudan Paul - Andrei <paulandreiabrudan@protonmail.com>"]
+description = "Simple extension crate that enables a simpler api for web server crates"
+homepage = "https://github.com/pauldotsh/sailfish-web"
+repository = "https://github.com/pauldotsh/sailfish-web"
+keywords = ["web", "axum", "sailfish", "rocket", "warp"]
+license = "MIT"
+
+[lib]
+name = "sailfish_web"
+
+[features]
+default = []
+axum_support = ["axum"]
+rocket_support = ["rocket"]
+warp_support = ["warp"]
+
+[dependencies]
+sailfish = "0.8.3"
+axum = { version = "0.7.5", optional = true }
+rocket = { version = "0.5.1", optional = true }
+warp = { version = "0.3.7", optional = true }
