@@ -1,6 +1,6 @@
 [package]
 name = "sailfish-web"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Abrudan Paul - Andrei <paulandreiabrudan@protonmail.com>"]
 description = "Simple extension crate that enables a simpler api for web server crates"
@@ -17,6 +17,7 @@ default = []
 axum_support = ["axum"]
 rocket_support = ["rocket"]
 warp_support = ["warp"]
+option_result = []
 
 [dependencies]
 sailfish = "0.8.3"

@@ -1,5 +1,5 @@
 # Sailfish-Web
-Simple extension crate that enables a simpler api for web server crates
+Simple extension crate that enables a simpler api for web server crates and other conveniences
 
 # Examples
 
